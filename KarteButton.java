@@ -21,6 +21,7 @@ public class KarteButton extends JButton {
         this.iconVorderseite = iconVorderseite;
         this.iconRueckseite = iconRueckseite;
         setIcon(iconRueckseite); // Anfangs Rückseite anzeigen
+        // setIcon(iconVorderseite); // nur zum Testen vom Shufflen
     }
 
     public void ansichtAktualisieren() {
