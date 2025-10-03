@@ -36,7 +36,7 @@ public class KarteButton extends JButton {
     
     /**
      * Getter für die logische Karte, die der Button repräsentiert. Bietet Zugriff auf ID, ob Karte noch aktiv ist....
-     * @return
+     * @return Karte
      */
     public Karte getKarte() {
         return karte;

@@ -17,7 +17,7 @@ public class SpielerPanel extends JPanel {
         punkteLabel.setFont(new Font("Arial", Font.PLAIN, 24));
         punkteLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        zugLabel = new JLabel("Your Turn");
+        zugLabel = new JLabel("Du bist dran!");
         zugLabel.setFont(new Font("Arial", Font.BOLD, 20));
         zugLabel.setForeground(new Color(0,180,0));
         zugLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
